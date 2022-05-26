@@ -73,6 +73,7 @@ These are the three configuration files you will interact with:
 - `variables.env` : environment variables loaded into the docker container
 - `version` : the version of the docker images to use
 
+To configure Open ID Connect support, heads up to `variables.env` and update the `OPEN_ID_*` variables to adapt them to your provider.
 
 ## Starting Up
 
